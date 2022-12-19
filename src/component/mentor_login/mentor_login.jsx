@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-const Mentor_Login = () => {
+const MentorLogin = () => {
   return (
     <>
     <h1>Log in</h1>
@@ -11,13 +11,14 @@ const Mentor_Login = () => {
         <form class="create-form">
           <input type="text" placeholder="Email" />
           <input type="password" placeholder="Password" />
-          <button>Log in</button>
+          <a href="/" class="button">Log in</a>
+          <a href="/" >create new account</a>
         </form>
       </div>
     </div>
-    <a href="/">create new account</a>
+
     </>
   );
 };
 
-export default Mentor_Login;
+export default MentorLogin;

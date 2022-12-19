@@ -169,3 +169,340 @@ ul li i:after {
   bottom: 0;
   width: 100%;
 }
+
+.column {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  float: left;
+  width: 50%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 4px;
+}
+
+.column-2 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  float: left;
+  width: 33.3%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 4px;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.button_container{
+  align-items: center;
+  position: fixed;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.TITLE { 
+  align-items: center;
+  width:80%; /*Takes 90% width from WebContainer*/
+  height: auto;
+  margin: auto;
+  position:absolute;
+}
+
+.BoxofTEXT { 
+  margin: 0 auto;
+  /*background: #fff;*/
+  padding: 20px;
+  background-color:rgba(245.00000059604645, 237.0000010728836, 231.00000143051147, 1);
+  width:80%;
+  top: 100%;
+  left: 100%;
+  align-items: center;
+  height:513px;
+  /* position:absolute; */
+  /* top:0px; */
+  border-top-left-radius:12px;
+  border-top-right-radius:12px;
+  border-bottom-left-radius:12px;
+  border-bottom-right-radius:12px;
+}
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+
+.TopAVATARS { 
+  width:477px;
+  height:467px;
+  position:absolute;
+  left:579px;
+  top:23px;
+  /* background-image:url(images/women_image.png); */
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.TextTITLE { 
+  color:rgba(30.00000011175871, 30.00000011175871, 30.00000011175871, 1);
+  width:553px;
+  height:142px;
+  position:absolute;
+  left:31px;
+  top:55px;
+  font-family:Inter;
+  text-align:left;
+  font-size:48px;
+  letter-spacing:-2.200000047683716;
+}
+.TextBOX { 
+  color:rgba(30.00000011175871, 30.00000011175871, 30.00000011175871, 0.699999988079071);
+  width:524px;
+  height:132px;
+  position:absolute;
+  left:41px;
+  top:231px;
+  text-align:left;
+  font-size:22px;
+  letter-spacing:-2.200000047683716;
+}  
+
+.BottomBECOME { 
+  width:359px;
+  height:107px;
+  position:absolute;
+  left:824px;
+  top:719px;
+}
+
+.backgroundBOTTOMBECOME { 
+  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color:rgba(200.00000327825546, 173.00000488758087, 151.00000619888306, 0.800000011920929);
+  width:317px;
+  height:107px;
+  position:absolute;
+  left:824px;
+  top:719px;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+}
+
+.LettersBOTTOMBECOME { 
+  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+  color:rgba(245.00000059604645, 245.00000059604645, 245.00000059604645, 1);
+  width:314px;
+  height:57px;
+  position:absolute;
+  left:829px;
+  top:719px;
+  font-family:Inter;
+  text-align:center;
+  font-size:32px;
+  letter-spacing:0;
+}
+
+.BottomFIND { 
+  width:359px;
+  height:107px;
+  position:absolute;
+  left:300px;
+  top:719px;
+}
+.BackgroundBOTTOMFIND { 
+  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color:rgba(200.00000327825546, 173.00000488758087, 151.00000619888306, 0.800000011920929);
+  width:317px;
+  height:107px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+}
+
+.TextFINDSTYLE { 
+  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+  color:rgba(245.00000059604645, 245.00000059604645, 245.00000059604645, 1);
+  width:314px;
+  height:57px;
+  position:absolute;
+  left:45px;
+  top:34px;
+  font-family:Inter;
+  text-align:left;
+  font-size:32px;
+  letter-spacing:0;
+}
+
+.TextOURSTORIES { 
+  width:1065px;
+  height:483px;
+  position:absolute;
+  left:187px;
+  top:950px;
+}
+.TitleOURSTORIES { 
+  color:rgba(0, 0, 0, 1);
+  width:220px;
+  height:56px;
+  position:absolute;
+  left:459px;
+  top:0px;
+  font-family:Inter;
+  text-align:center;
+  font-size:24px;
+  letter-spacing:-2.200000047683716;
+}
+
+.TextITHASBEEN { 
+  width:345px;
+  height:371px;
+  position:absolute;
+  left:360px;
+  top:109px;
+}
+
+.BackgroundITHASBEEN { 
+  background-color:rgba(237.0000010728836, 214.00000244379044, 196.00000351667404, 0.5);
+  width:345px;
+  height:190px;
+  position:absolute;
+  left:0px;
+  top:148px;
+  border-top-left-radius:12px;
+  border-top-right-radius:12px;
+  border-bottom-left-radius:12px;
+  border-bottom-right-radius:12px;
+}
+
+.AvatarITHASBEEN { 
+  width:164px;
+  height:132px;
+  position:absolute;
+  left:91px;
+  top:0px;
+  /* background-image:url(images/women_power_avatar.png); */
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.PlacementTEXTITHASBEEN { 
+  color:rgba(0, 0, 0, 0.699999988079071);
+  width:300px;
+  height:210px;
+  position:absolute;
+  left:25px;
+  top:161px;
+  font-family:Inter;
+  text-align:left;
+  font-size:22px;
+  letter-spacing:0;
+}
+
+.TextAFTER { 
+  width:345px;
+  height:371px;
+  position:absolute;
+  left:720px;
+  top:109px;
+}
+
+.BackgroundBOTTOMAFTER { 
+  background-color:rgba(237.0000010728836, 214.00000244379044, 196.00000351667404, 0.5);
+  width:345px;
+  height:190px;
+  position:absolute;
+  left:0px;
+  top:148px;
+  border-top-left-radius:12px;
+  border-top-right-radius:12px;
+  border-bottom-left-radius:12px;
+  border-bottom-right-radius:12px;
+}
+
+.AvatarAFTER { 
+  width:164px;
+  height:132px;
+  position:absolute;
+  left:91px;
+  top:0px;
+  border-top-left-radius:12px;
+  border-top-right-radius:12px;
+  border-bottom-left-radius:12px;
+  border-bottom-right-radius:12px;
+  /* background-image:url(images/women_power_avatar.png); */
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.PlacementTEXTAFTER { 
+  color:rgba(0, 0, 0, 0.699999988079071);
+  width:300px;
+  height:210px;
+  position:absolute;
+  left:23px;
+  top:161px;
+  font-family:Inter;
+  text-align:left;
+  font-size:22px;
+  letter-spacing:0;
+}
+
+.TextBOTTOMIFOUND { 
+  width:345px;
+  height:374px;
+  position:absolute;
+  left:0px;
+  top:109px;
+}
+
+.BackgroundBOTTOMIFOUND { 
+  background-color:rgba(237.0000010728836, 214.00000244379044, 196.00000351667404, 0.5);
+  width:345px;
+  height:190px;
+  position:absolute;
+  left:0px;
+  top:148px;
+  border-top-left-radius:12px;
+  border-top-right-radius:12px;
+  border-bottom-left-radius:12px;
+  border-bottom-right-radius:12px;
+}
+
+.PlacementTEXTIFOUND { 
+  color:rgba(0, 0, 0, 0.699999988079071);
+  width:300px;
+  height:210px;
+  position:absolute;
+  left:21px;
+  top:164px;
+  font-family:Inter;
+  text-align:left;
+  font-size:22px;
+  letter-spacing:0;
+}
+
+.AvatarIFOUND { 
+  width:164px;
+  height:132px;
+  position:absolute;
+  left:96px;
+  top:0px;
+  /* background-image:url(images/women_power_avatar.png); */
+  background-repeat:no-repeat;
+  background-size:cover;
+}
