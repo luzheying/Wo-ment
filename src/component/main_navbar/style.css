@@ -10,6 +10,10 @@
         Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
         sans-serif;
     }
+.WebContainer{
+      width: 100%;
+      height: auto;
+}
 body {
   background-color: #f3dac6;
   overflow: auto;

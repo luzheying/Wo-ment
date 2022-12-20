@@ -182,14 +182,23 @@ ul li i:after {
 }
 
 .column-2 {
+  background-color:rgba(237.0000010728836, 214.00000244379044, 196.00000351667404, 0.5);
+  font-family:Inter;
+  text-align:left;
+  font-size:22px;
+  letter-spacing:0;
   margin-top: 100px;
   margin-bottom: 100px;
-  float: left;
-  width: 33.3%;
+  float: right;
+  width: 28%;
   display: grid;
   justify-content: center;
   align-content: center;
-  gap: 4px;
+  text-align:center;
+  border-top-left-radius:12px;
+  border-top-right-radius:12px;
+  border-bottom-left-radius:12px;
+  border-bottom-right-radius:12px;
 }
 
 .vertical-center {
@@ -245,21 +254,21 @@ ul li i:after {
 }
 
 .TopAVATARS { 
-  width:477px;
-  height:467px;
+  width:380px;
+  height:380px;
   position:absolute;
-  left:579px;
-  top:23px;
-  /* background-image:url(images/women_image.png); */
+  left: 65%;
+  float: right;
+  background-image:url(images/women_image.png);
   background-repeat:no-repeat;
   background-size:cover;
 }
 .TextTITLE { 
   color:rgba(30.00000011175871, 30.00000011175871, 30.00000011175871, 1);
-  width:553px;
-  height:142px;
+  width:50%;
+  height:100%;
   position:absolute;
-  left:31px;
+  right:40%;
   top:55px;
   font-family:Inter;
   text-align:left;
@@ -268,86 +277,16 @@ ul li i:after {
 }
 .TextBOX { 
   color:rgba(30.00000011175871, 30.00000011175871, 30.00000011175871, 0.699999988079071);
-  width:524px;
-  height:132px;
+  width:50%;
+  height:100%;
   position:absolute;
-  left:41px;
+  right:45%;
   top:231px;
   text-align:left;
   font-size:22px;
   letter-spacing:-2.200000047683716;
 }  
 
-.BottomBECOME { 
-  width:359px;
-  height:107px;
-  position:absolute;
-  left:824px;
-  top:719px;
-}
-
-.backgroundBOTTOMBECOME { 
-  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color:rgba(200.00000327825546, 173.00000488758087, 151.00000619888306, 0.800000011920929);
-  width:317px;
-  height:107px;
-  position:absolute;
-  left:824px;
-  top:719px;
-  border-top-left-radius:5px;
-  border-top-right-radius:5px;
-  border-bottom-left-radius:5px;
-  border-bottom-right-radius:5px;
-}
-
-.LettersBOTTOMBECOME { 
-  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
-  color:rgba(245.00000059604645, 245.00000059604645, 245.00000059604645, 1);
-  width:314px;
-  height:57px;
-  position:absolute;
-  left:829px;
-  top:719px;
-  font-family:Inter;
-  text-align:center;
-  font-size:32px;
-  letter-spacing:0;
-}
-
-.BottomFIND { 
-  width:359px;
-  height:107px;
-  position:absolute;
-  left:300px;
-  top:719px;
-}
-.BackgroundBOTTOMFIND { 
-  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color:rgba(200.00000327825546, 173.00000488758087, 151.00000619888306, 0.800000011920929);
-  width:317px;
-  height:107px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  border-top-left-radius:5px;
-  border-top-right-radius:5px;
-  border-bottom-left-radius:5px;
-  border-bottom-right-radius:5px;
-}
-
-.TextFINDSTYLE { 
-  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
-  color:rgba(245.00000059604645, 245.00000059604645, 245.00000059604645, 1);
-  width:314px;
-  height:57px;
-  position:absolute;
-  left:45px;
-  top:34px;
-  font-family:Inter;
-  text-align:left;
-  font-size:32px;
-  letter-spacing:0;
-}
 
 .TextOURSTORIES { 
   width:1065px;
@@ -356,15 +295,21 @@ ul li i:after {
   left:187px;
   top:950px;
 }
-.TitleOURSTORIES { 
+
+.h5 {
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   color:rgba(0, 0, 0, 1);
-  width:220px;
-  height:56px;
-  position:absolute;
-  left:459px;
-  top:0px;
+  width:100%;
+  /* position:absolute; */
+  display: flex;
+  left: 50%;
   font-family:Inter;
   text-align:center;
+  justify-items: center;
   font-size:24px;
   letter-spacing:-2.200000047683716;
 }
@@ -379,11 +324,9 @@ ul li i:after {
 
 .BackgroundITHASBEEN { 
   background-color:rgba(237.0000010728836, 214.00000244379044, 196.00000351667404, 0.5);
-  width:345px;
-  height:190px;
+  width:90%;
+  height:90%;
   position:absolute;
-  left:0px;
-  top:148px;
   border-top-left-radius:12px;
   border-top-right-radius:12px;
   border-bottom-left-radius:12px;
@@ -391,25 +334,25 @@ ul li i:after {
 }
 
 .AvatarITHASBEEN { 
-  width:164px;
-  height:132px;
-  position:absolute;
-  left:91px;
-  top:0px;
-  /* background-image:url(images/women_power_avatar.png); */
+  width: 80px;
+  height: 80px;
+  /* display: flex;s */
+  /* position: absolute; */
+  /* justify-content: center; */
+  left: 50%;
+  background-image:url(images/women_power_avatar.png);
   background-repeat:no-repeat;
   background-size:cover;
 }
 
+
+
 .PlacementTEXTITHASBEEN { 
   color:rgba(0, 0, 0, 0.699999988079071);
-  width:300px;
-  height:210px;
-  position:absolute;
-  left:25px;
-  top:161px;
+  width:50%;
+  height:80%;
   font-family:Inter;
-  text-align:left;
+  text-align:center;
   font-size:22px;
   letter-spacing:0;
 }
@@ -445,7 +388,7 @@ ul li i:after {
   border-top-right-radius:12px;
   border-bottom-left-radius:12px;
   border-bottom-right-radius:12px;
-  /* background-image:url(images/women_power_avatar.png); */
+  background-image:url(images/women_power_avatar.png);
   background-repeat:no-repeat;
   background-size:cover;
 }
@@ -502,7 +445,20 @@ ul li i:after {
   position:absolute;
   left:96px;
   top:0px;
-  /* background-image:url(images/women_power_avatar.png); */
+  background-image:url(images/women_power_avatar.png);
   background-repeat:no-repeat;
   background-size:cover;
+}
+
+.img{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  /*
+  left: 420px;
+  top: 401px;
+  */
+  left: calc(50% - 306px / 2 - 280px);
+  top: calc(50% - 16px / 2 - 287px);
+  border-radius: 50%;
 }

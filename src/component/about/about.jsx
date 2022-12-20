@@ -1,11 +1,32 @@
 import React from "react";
 import "./style.css";
+const divStyle = {
+  'display': 'flex',
+  'text-align' : 'center',
+  'font-weight' : 'bold'
+};
+
 
 const About = () => {
   return (
     <>
-      <h1>ABOUT US</h1>
+    <nav class="navigation">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/#/about">About Us</a></li>
+          <li><a href="/">Find a Mentor</a></li>
+          <li><a href="/#/mentor/signup">Become a Mentor</a></li>
+          <li><a href="/#/resource">Resource</a></li>
+        </ul>
+    </nav>
+
+    
+    <h1>ABOUT US</h1>
+
       <div id="faq">
+        {/* <div style={divStyle}>
+            <h1>ABOUT US</h1>
+        </div> */}
         <ul>
           <li>
             <input type="checkbox" checked />

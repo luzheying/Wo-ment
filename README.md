@@ -2,7 +2,7 @@
 
 ## Installation
 
-```cd /Wo-ment```
-```npm install```
-```npm start```
-Go to [http://localhost:3000/](http://localhost:3000/)
+1. ```cd /Wo-ment```
+2. ```npm install```
+3. ```npm start```
+4. Go to [http://localhost:3000/](http://localhost:3000/)

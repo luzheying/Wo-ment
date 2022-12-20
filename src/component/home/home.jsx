@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import styled from "styled-components";
-
+import avatar from './images/women_power_avatar.png'
 const theme = {
   brown: {
     default: "#C8AD97",
@@ -66,53 +66,67 @@ const Tab = styled.button`
 const Home = () => {
   return (
     <>
+    <nav class="navigation">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/#/about">About Us</a></li>
+          <li><a href="/">Find a Mentor</a></li>
+          <li><a href="/#/mentor/signup">Become a Mentor</a></li>
+          <li><a href="/#/resource">Resource</a></li>
+        </ul>
+    </nav>
+    
     <div class="WebContainer">
     <div class="BoxofTEXT">
       <div class="TITLE">
           
-          <div class="TopAVATARS"></div>
           <span  class="TextTITLE">EMPOWERING WOMEN 
                                     IN THE WORKPLACE
           </span>
           <span  class="TextBOX">Wo-Ment is a professional network for women looking to find mentorship, become a mentor, or find professional services while providing support to guide the others during your career path.</span>
+          <div class="TopAVATARS"></div>
     </div>
     </div>
-
+    {/* <div class="WebContainer"> */}
       <div class="row">
         <div class="column">
-              <a href="/" target="_blank">
+              <a href="/#/mentor/login" >
                 <Button>Find a Mentor</Button>
               </a>
         </div>
         <div class="column">
-              <a href="/" target="_blank">
+              <a href="/" >
                 <Button>Find a Mentor</Button>
               </a>
         </div>
       </div>
+    {/* </div> */}
 
 
-      <div class="TextOURSTORIES">
-      <span  class="TitleOURSTORIES">Our Stories</span>
-              <div class="TextITHASBEEN">
-                    <div class="BackgroundITHASBEEN"></div>
-                    <div class="AvatarITHASBEEN"></div>
-                    <span  class="PlacementTEXTITHASBEEN">It has been three months since I became a mentor at wo-ment, I am so glad to bond with my mentees, all amazing human-beings.</span>
-              </div>
-
-      <div class="TextAFTER">
-            <div class="BackgroundBOTTOMAFTER"></div>
-            <div class="AvatarAFTER"></div>
-            <span  class="PlacementTEXTAFTER">After being a mentee for a while, I decided to become a mentor! Passing all the help that I have receviced to the others felt great.</span>
+    <div class="row">
+      <span  class="h5">Our Stories</span>
+      <div class="column-2">
+          {/* <img src={avatar}></img> */}
+          {/* <div class="AvatarITHASBEEN"></div> */}
+          <div class="PlacementTEXTITHASBEEN">
+          It has been three months since I became a mentor at wo-ment, I am so glad to bond with my mentees, all amazing human-beings.
+          </div>
       </div>
-
-
-      <div class="TextBOTTOMIFOUND">
-        <div class="BackgroundBOTTOMIFOUND"></div>
-              <span  class="PlacementTEXTIFOUND">I found my mentor through WoMent. With her help, I just landed my first internship!</span>
-        <div class="AvatarIFOUND"></div>
+      <div class="column-2">
+          {/* <div class="AvatarITHASBEEN"></div> */}
+          <div class="PlacementTEXTITHASBEEN">
+          After being a mentee for a while, I decided to become a mentor! Passing all the help that I have receviced to the others felt great.
+          </div>
       </div>
-    </div> 
+      <div class="column-2">
+          {/* <div class="AvatarITHASBEEN"></div> */}
+          <p class="PlacementTEXTITHASBEEN">
+          I found my mentor through WoMent. With her help, I just landed my first internship!
+          </p>
+      </div>
+    </div>
+
+
     </div>
     </>
   );
