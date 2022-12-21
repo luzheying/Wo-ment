@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mentor Successful Signup Page</title>
+  </head>
+  <style>
+    * {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      }
+      <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Inter';font-size: 22px;
+}
+
+    body {
+      background-color: #f3dac6;
+    }
+
+    #right {
+      /*
+      float:right;
+      */
+      border-radius: 50%;
+      width: 85px;
+      height: 85px;
+      top: 0;
+      float: right;
+      margin-top: 15px;
+      margin-right: 15px;
+    }
+    nav {
+      /*
+      width: 80%;
+      */
+      margin: 0 auto;
+      /*
+      background: #fff;
+      */
+      padding: 20px 0;
+      box-shadow: 0px 5px 0px #dedede;
+    }
+    nav ul {
+      list-style: none;
+      text-align: center;
+    }
+    nav ul li {
+      display: inline-block;
+    }
+    nav ul li a {
+      display: block;
+      padding: 15px;
+      text-decoration: none;
+      color: #000000;
+      font-weight: 800;
+
+      margin: 0 10px;
+    }
+    nav ul li a,
+    nav ul li a:after,
+    nav ul li a:before {
+      transition: all 0.5s;
+    }
+    nav ul li a:hover {
+      color: #c8ad97;
+    }
+
+    h1,
+    h2 {
+      text-align: left;
+    }
+
+    h1 {
+      font-size: 48px;
+    }
+    h2 {
+      font-weight: normal;
+      font-size: 22px;
+    }
+    @import url(https://fonts.googleapis.com/css?family=Roboto:300);
+    * {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    }
+    body {
+      background-color: #f3dac6;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 100px;
+      font-size: 40px;
+    }
+    #faq {
+      max-width: 700px;
+      margin: auto;
+      padding: 0 15px;
+      text-align: center;
+    }
+​
+    section.faq {
+      padding-top: 2em;
+      padding-bottom: 3em;
+    }
+​
+    #faq ul {
+      text-align: left;
+    }
+    .transition,
+    p,
+    ul li i:before,
+    ul li i:after {
+      transition: all 0.3s;
+    }
+​
+    #faq .no-select,
+    #faq h2 {
+      -webkit-tap-highlight-color: transparent;
+      -webkit-touch-callout: none;
+      user-select: none;
+
+      
+    }
+​
+    #faq h1 {
+      color: #000;
+      margin-bottom: 30px;
+      margin-top: 0;
+    }
+​
+    #faq h2 {
+       
+      color: #edd6c4;
+      font-family: "hm_light", sans-serif;
+      font-size: 20px;
+      line-height: 34px;
+      text-align: left;
+      padding: 15px 15px 0;
+      text-transform: none;
+      font-weight: 300;
+      letter-spacing: 1px;
+      display: block;
+      margin: 0;
+      cursor: pointer;
+      transition: 0.2s;
+
+    }
+​
+    #faq p {
+      color: #333;
+      text-align: left;
+      font-family: "hm_light", sans-serif;
+      font-size: 14px;
+      line-height: 1.45;
+      position: relative;
+      overflow: hidden;
+      max-height: 250px;
+      will-change: max-height;
+      contain: layout;
+      display: inline-block;
+      opacity: 1;
+      transform: translate(0, 0);
+      margin-top: 5px;
+      margin-bottom: 15px;
+      padding: 0 50px 0 15px;
+      transition: 0.3s opacity, 0.6s max-height;
+      hyphens: auto;
+      z-index: 2;
+    }
+​
+    #faq ul {
+      list-style: none;
+      perspective: 900;
+      padding: 0;
+      margin: 0;
+    }
+    #faq ul li {
+      position: relative;
+      overflow: hidden;
+      padding: 0;
+      margin: 0;
+      /*padding-bottom: 4px;*/
+      /*padding-top: 18px;*/
+      background: #fff;
+      box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.1);
+      -webkit-tap-highlight-color: transparent;
+    }
+    #faq ul li + li {
+      margin-top: 15px;
+    }
+    #faq ul li:last-of-type {
+      padding-bottom: 0;
+    }
+    #faq ul li i {
+      position: absolute;
+      transform: translate(-6px, 0);
+      margin-top: 28px;
+      right: 15px;
+    }
+    #faq ul li i:before,
+    ul li i:after {
+      content: "";
+      position: absolute;
+      background-color: #edd6c4;
+      width: 3px;
+      height: 9px;
+    }
+    #faq ul li i:before {
+      transform: translate(-2px, 0) rotate(45deg);
+    }
+    #faq ul li i:after {
+      transform: translate(2px, 0) rotate(-45deg);
+    }
+    #faq ul li input[type="checkbox"] {
+      position: absolute;
+      cursor: pointer;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      opacity: 0;
+      touch-action: manipulation;
+    }
+    #faq ul li input[type="checkbox"]:checked ~ h2 {
+      color: #000;
+    }
+    #faq ul li input[type="checkbox"]:checked ~ p {
+      /*margin-top: 0;*/
+      max-height: 0;
+      transition: 0.3s;
+      opacity: 0;
+      /*transform: translate(0, 50%);*/
+    }
+    #faq ul li input[type="checkbox"]:checked ~ i:before {
+      transform: translate(2px, 0) rotate(45deg);
+    }
+    #faq ul li input[type="checkbox"]:checked ~ i:after {
+      transform: translate(-2px, 0) rotate(-45deg);
+    }
+​
+    html,
+    body {
+      height: 100%;
+    }
+​
+    a,
+    a:visited,
+    a:focus,
+    a:active,
+    a:link {
+      text-decoration: none;
+      outline: 0;
+    }
+​
+    a {
+      color: currentColor;
+      transition: 0.2s ease-in-out;
+    }
+​
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+​
+    nav {
+      margin: 0 auto;
+      /*background: #fff;*/
+      padding: 20px;
+      /*box-shadow: 0px 5px 0px #dedede;*/
+    }
+    nav ul {
+      list-style: none;
+      text-align: center;
+    }
+    nav ul li {
+      display: inline-block;
+    }
+    nav ul li a {
+      display: block;
+      padding: 15px;
+      text-decoration: none;
+      color: #000000;
+      font-weight: 800;
+​
+      margin: 0 10px;
+    }
+    nav ul li a,
+    nav ul li a:after,
+    nav ul li a:before {
+      transition: all 0.5s;
+    }
+    nav ul li a:hover {
+      color: #f3dac6;
+    }
+    .BackgroundTEXT{
+
+      font: inter;
+      font-size: 22;
+      border-style: groove;
+      font-weight: normal;
+      display: block;
+      border: medium;
+      margin: auto;
+      width: 65%;
+      border: 2px black;
+      padding: 10px;
+      border: black  ;
+
+
+    
+
+  
+
+    }
+  </style>
+
+  <body>
+
+    <nav class="navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="About.html">About Us</a></li>
+        <li><a href="#">Find a Mentor</a></li>
+        <li><a href="#">Become a Mentor</a></li>
+        <li><a href="#">Resource</a></li>
+      </ul>
+    </nav>
+
+
+    <h1>EMPOWERING WOMEN<br> 
+     IN THE WORKPLACE</h1>
+
+    <h2><div class="BackgroundTEXT"><span>
+      <div class =headingg>Guide for interacting with the website:</strong><br></div>
+
+                                                          <ul>After registration and completing your profile, Wo-Ment works by matching <strong>MENTEEs</strong>  with you.<br></ul>
+
+                                                         <ul>Your information will <strong>ONLY</strong> be shared with your match after you have received<br> and approved a request. <br></ul>
+
+                                                          <ul>Then, you will receive an email from your mentee, where you can begin<br> your mentorship interaction.<br></ul>
+
+                                                          <ul>Your email address will not be sold, shared with third parties or used for any<br> purposes other than to keep <br>you updated on new requests from potential mentees.<br></ul>
+
+                                                          <ul>You have the right to delete your profile at any time. Start your journey as a mentor<br> now!</div></span></ul></h2>
+
+    <div id="faq">
+      <ul>
+        <li>
+          <input type="checkbox" checked />
+          <i></i>
+    <h3>
+          What Is Mentorship?</h3>
+          <p>
+            Mentorship is a helping relationship in which one person, usually more experienced or senior, takes time to assist the career, professional or personal development of<br> someone else, who is known as a mentee, mentor.
+          </p>
+        </li>
+        <li>
+          <input type="checkbox" checked />
+          <i></i>
+          <h3>Why Should You Become a Mentor</h3>
+          <p>
+
+                              Mentorship is a powerful and transformative experience that can benefit both the mentor and the mentee. As a mentor, you have the opportunity to share your knowledge, skills, and experiences with someone who is seeking guidance and support. This can be a rewarding and fulfilling experience, as you help someone else develop and grow. At the same time, mentorship can also be an opportunity for personal growth and learning for the mentor. If you have the opportunity to be a mentor, it can be a valuable way to support and encourage young people as they navigate their way through life and pursue their goals and dreams.
+
+          </p>
+        </li>
+        <li>
+          <input type="checkbox" checked />
+          <i></i>
+          <h3>How to Form a Mentorship?</h3>
+          <p>
+             Setting expectations and being committed to the mentorship relationship are important factors for success. It is also important for the mentor to be open and honest with the mentee, and to provide constructive feedback that can help the mentee grow and develop. This might include sharing your own experiences and challenges, offering guidance and advice, and helping the mentee set and work towards goals. By being open and honest, you can help the mentee navigate any challenges they may be facing and provide the support and guidance they need to succeed. Additionally, it is important for the mentor to be available and responsive, and to make time for regular check-ins and progress updates. By working together and building a strong relationship, the mentor and mentee can achieve their goals and achieve success.<br>
+             Sharing your own stories and struggles can be a valuable way to connect with your mentee and build trust and understanding in the mentorship relationship. It can also help your mentee see that you are a real person with your own challenges and experiences, and that you are there to support them through their own struggles.
+
+As a mentor, it is important to listen to your mentee and ask them what they think they should do, rather than telling them what to do. This helps empower them and helps them develop their own problem-solving skills. It is also important to be empathetic and understanding, and to provide support and guidance as needed.
+
+Connecting your mentee with other people in your network can be a great way to help them find new opportunities and build their own professional network. Sponsorship, or advocating for your mentee and helping them advance in their career, can also be an important part of the mentorship relationship. By supporting your mentee and helping them navigate their career path, you can help them reach their full potential and achieve success.
+
+
+          </p>
+        </li>
+      </ul>
+  </body>
+</html>
